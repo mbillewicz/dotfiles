@@ -1,5 +1,3 @@
-execute pathogen#infect()
-
 " MISC
 set bs=2
 set mouse=a
@@ -37,8 +35,6 @@ set tags=tags;
 " AUTOSTART
 augroup ProjectDrawer
   autocmd!
-"  autocmd VimEnter * :Vexplore
-"  autocmd TabNew * :Vexplore
 augroup END
 
 set cm=blowfish2     " best (requires Vim version 7.4.399 or higher)
